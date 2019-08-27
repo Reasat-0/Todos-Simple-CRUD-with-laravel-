@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="D:\Laravel\Todos\Todos.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/Todos]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/Todos]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3">
+  <errfile name="D:\Laravel\Todos\vendor\symfony\var-dumper\Tests\Fixtures\Php74.php">
+   <error val="20;7;22;7;102;1;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\symfony\process\Tests\ProcessTest.php">
+   <error val="41;782;42;782;901;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\symfony\debug\DebugClassLoader.php">
+   <error val="34;516;45;516;303;2;"/>
+   <error val="52;517;63;517;303;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\symfony\console\Helper\Table.php">
+   <error val="40;550;45;550;303;2;"/>
+   <error val="54;554;59;554;303;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\symfony\console\Application.php">
+   <error val="78;791;84;791;303;2;"/>
+   <error val="72;792;78;792;303;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\tests\unit\Swift\ByteStream\ArrayByteStreamTest.php">
+   <error val="38;58;39;58;901;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\nikic\php-parser\test\PhpParser\LexerTest.php">
+   <error val="66;220;67;220;901;2;"/>
+   <error val="66;242;67;242;901;2;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\monolog\monolog\tests\Monolog\Processor\MercurialProcessorTest.php">
+   <error val="11;32;16;32;102;1;"/>
+  </errfile>
+  <errfile name="D:\Laravel\Todos\vendor\mockery\mockery\tests\Mockery\Fixtures\MethodWithHHVMReturnType.php">
+   <error val="0;21;9;21;102;1;"/>
+   <error val="48;27;49;27;204;1;"/>
+   <error val="47;52;48;52;204;1;"/>
+  </errfile>
+ </errors>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael>
+  <facade class="App" name="app"/>
+  <facade class="Auth" name="auth"/>
+  <facade class="Blade" name="blade.compiler"/>
+  <facade class="Cache" name="cache"/>
+  <facade class="Config" name="config"/>
+  <facade class="Cookie" name="cookie"/>
+  <facade class="Crypt" name="encrypter"/>
+  <facade class="DB" name="db"/>
+  <facade class="Date" name="date"/>
+  <facade class="Event" name="events"/>
+  <facade class="Facade" name="Facade does not implement getFacadeAccessor method."/>
+  <facade class="File" name="files"/>
+  <facade class="Hash" name="hash"/>
+  <facade class="Input" name="request"/>
+  <facade class="Lang" name="translator"/>
+  <facade class="Log" name="log"/>
+  <facade class="Mail" name="mailer"/>
+  <facade class="Password" name="auth.password"/>
+  <facade class="Queue" name="queue"/>
+  <facade class="Redirect" name="redirect"/>
+  <facade class="Redis" name="redis"/>
+  <facade class="Request" name="request"/>
+  <facade class="Route" name="router"/>
+  <facade class="Schema" name="db"/>
+  <facade class="Session" name="session"/>
+  <facade class="Storage" name="filesystem"/>
+  <facade class="URL" name="url"/>
+  <facade class="Validator" name="validator"/>
+  <facade class="View" name="view"/>
+  <file name="D:\Laravel\Todos\vendor\laravel\framework\src\Illuminate\Cache\CacheServiceProvider.php">
+   <type class="MemcachedConnector" name="memcached.connector"/>
+  </file>
+  <file name="D:\Laravel\Todos\vendor\laravel\framework\src\Illuminate\Filesystem\FilesystemServiceProvider.php">
+   <type class="Filesystem" name="files"/>
+  </file>
+  <file name="D:\Laravel\Todos\vendor\laravel\framework\src\Illuminate\Foundation\Providers\ArtisanServiceProvider.php">
+   <type class="AuthMakeCommand" name="command.auth.make"/>
+   <type class="ClearResetsCommand" name="command.auth.resets.clear"/>
+   <type class="ClearCompiledCommand" name="command.clear-compiled"/>
+   <type class="DownCommand" name="command.down"/>
+   <type class="EnvironmentCommand" name="command.environment"/>
+   <type class="EventCacheCommand" name="command.event.cache"/>
+   <type class="EventGenerateCommand" name="command.event.generate"/>
+   <type class="KeyGenerateCommand" name="command.key.generate"/>
+   <type class="MigrateFreshCommand" name="command.migrate.fresh"/>
+   <type class="MigrateRefreshCommand" name="command.migrate.refresh"/>
+   <type class="OptimizeCommand" name="command.optimize"/>
+   <type class="OptimizeClearCommand" name="command.optimize.clear"/>
+   <type class="PackageDiscoverCommand" name="command.package.discover"/>
+   <type class="PresetCommand" name="command.preset"/>
+   <type class="ListFailedQueueCommand" name="command.queue.failed"/>
+   <type class="FlushFailedQueueCommand" name="command.queue.flush"/>
+   <type class="ForgetFailedQueueCommand" name="command.queue.forget"/>
+   <type class="QueueRestartCommand" name="command.queue.restart"/>
+   <type class="QueueRetryCommand" name="command.queue.retry"/>
+   <type class="ServeCommand" name="command.serve"/>
+   <type class="StorageLinkCommand" name="command.storage.link"/>
+   <type class="UpCommand" name="command.up"/>
+   <type class="ViewCacheCommand" name="command.view.cache"/>
+  </file>
+  <file name="D:\Laravel\Todos\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php">
+   <type class="EngineResolver" name="view.engine.resolver"/>
+  </file>
+  <file name="D:\Laravel\Todos\vendor\laravel\tinker\src\TinkerServiceProvider.php">
+   <type class="TinkerCommand" name="command.tinker"/>
+  </file>
+ </laravael>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock>
+  <todofile name="D:\Laravel\Todos\routes\web.php">
+   <todo pos="12;27" name="Todos Router-------//"/>
+   <todo pos="20;36" name="Todos---------//"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\6107e7f24eacec293cf8785073e6714227d3d8c3.php">
+   <todo pos="147;6" name="Todos\resources\views/new.blade.php ENDPATH*"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\8c648eaa767cf54bc994a986e20829119de2d57d.php">
+   <todo pos="156;4" name="Todos\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions/views/404.blade."/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\8f5854d893b9e371d5d43f01a65c807390161ada.php">
+   <todo pos="25;99" name="Todos\resources\views/layout.blade.php ENDPATH*"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\9b9dc97710df6450f6a1f680fd96b743220d5143.php">
+   <todo pos="25;62" name="Todos\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions/views/minimal.bl"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\c2ccb6f1a6bc221d628ff0d80fc47048ab1588d0.php">
+   <todo pos="147;9" name="Todos\resources\views/welcome.blade.php ENDPATH*"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\storage\framework\views\f530479d63d2c577364edd188ece59ec35c13605.php">
+   <todo pos="147;37" name="Todos\resources\views/todos.blade.php ENDPATH*"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\filp\whoops\src\Whoops\Exception\Frame.php">
+   <todo pos="10;54" name="todo: This can be made more reliable by checking if we've entered"/>
+   <todo pos="9;54" name="@todo: This can be made more reliable by checking if we've entered"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\filp\whoops\src\Whoops\Handler\PrettyPageHandler.php">
+   <todo pos="14;168" name="todo: Make this more robust"/>
+   <todo pos="13;168" name="@todo: Make this more robust"/>
+   <todo pos="14;202" name="todo: Asset compiler"/>
+   <todo pos="13;202" name="@todo: Asset compiler"/>
+   <todo pos="10;254" name="todo: Consolidate addDataTable and addDataTableCallback"/>
+   <todo pos="9;254" name="@todo: Consolidate addDataTable and addDataTableCallback"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\filp\whoops\src\Whoops\Run.php">
+   <todo pos="14;343" name="todo Might be able to clean this up a bit better"/>
+   <todo pos="13;343" name="@todo Might be able to clean this up a bit better"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\fzaninotto\faker\src\Faker\ORM\CakePHP\EntityPopulator.php">
+   <todo pos="9;117" name="TODO check if TreeBehavior attached to modify lft/rgt cols"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\fzaninotto\faker\src\Faker\Provider\Base.php">
+   <todo pos="9;547" name="TODO: remove in v2"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\fzaninotto\faker\src\Faker\Provider\kk_KZ\Address.php">
+   <todo pos="5;15" name="TODO list all country names in the world"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\hamcrest\hamcrest-php\hamcrest\Hamcrest\Arrays\IsArray.php">
+   <todo pos="1;10" name="TODO: Allow this to take matchers or values within the array"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\monolog\monolog\src\Monolog\Formatter\JsonFormatter.php">
+   <todo pos="9;180" name="TODO 2.0 only check for Throwable"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\monolog\monolog\src\Monolog\Formatter\LineFormatter.php">
+   <todo pos="9;131" name="TODO 2.0 only check for Throwable"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\monolog\monolog\src\Monolog\Formatter\LogglyFormatter.php">
+   <todo pos="13;41" name="TODO 2.0 unset the 'datetime' parameter, retained for BC"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\monolog\monolog\src\Monolog\Formatter\NormalizerFormatter.php">
+   <todo pos="13;98" name="TODO 2.0 only check for Throwable"/>
+   <todo pos="9;123" name="TODO 2.0 only check for Throwable"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\monolog\monolog\src\Monolog\Handler\AmqpHandler.php">
+   <todo pos="13;117" name="TODO 2.0 remove substr call"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\Carbon.php">
+   <todo pos="5;18" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;503" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\CarbonImmutable.php">
+   <todo pos="5;18" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;503" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\CarbonInterface.php">
+   <todo pos="5;24" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;509" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\Factory.php">
+   <todo pos="5;15" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;205" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\FactoryImmutable.php">
+   <todo pos="5;15" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;205" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\Lang\ar_Shakl.php">
+   <todo pos="6;18" name="TODO add shakl to months"/>
+   <todo pos="5;18" name="@TODO add shakl to months"/>
+   <todo pos="6;46" name="TODO add shakl to translations below"/>
+   <todo pos="5;46" name="@TODO add shakl to translations below"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\Lang\mk.php">
+   <todo pos="11;13" name="Todorov"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nesbot\carbon\src\Carbon\Traits\Date.php">
+   <todo pos="5;28" name="todoc generated by `composer phpdoc`>"/>
+   <todo pos="6;513" name="todoc>"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nikic\php-parser\lib\PhpParser\Internal\TokenStream.php">
+   <todo pos="21;214" name="TODO Handle non-space indentation"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\nikic\php-parser\lib\PhpParser\PrettyPrinterAbstract.php">
+   <todo pos="13;496" name="TODO Add &lt;"/>
+   <todo pos="17;725" name="TODO: Try to preserve formatting"/>
+   <todo pos="21;849" name="TODO Handle removal at the start"/>
+   <todo pos="9;1253" name="TODO: &quot;yield&quot; where both key and value are inserted doesn't work"/>
+   <todo pos="86;1278" name="TODO"/>
+   <todo pos="47;1294" name="TODO These need to be treated more carefully"/>
+   <todo pos="9;1365" name="TODO Insertion into empty statement lists."/>
+   <todo pos="14;1400" name="TODO"/>
+   <todo pos="67;1420" name="TODO"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\phpdocumentor\reflection-docblock\src\DocBlock\StandardTagFactory.php">
+   <todo pos="13;217" name="TODO: Annotation support is planned for a later stage and as such is disabled for now"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\phpunit\phpunit\src\Util\Configuration.php">
+   <todo pos="24;60" name="TodoAnnotatedTests=&quot;false&quot;"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\phpunit\phpunit\tests\unit\Util\TestTest.php">
+   <todo pos="9;768" name="TODO Remove fixture from test class"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\CodeCleaner\CalledClassPass.php">
+   <todo pos="14;50" name="todo switch this to actually validate args when we get context-aware code cleaner passes."/>
+   <todo pos="13;50" name="@todo switch this to actually validate args when we get context-aware code cleaner passes."/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\CodeCleaner\PassableByReferencePass.php">
+   <todo pos="10;37" name="todo support MethodCall and StaticCall as well."/>
+   <todo pos="9;37" name="@todo support MethodCall and StaticCall as well."/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\CodeCleaner\RequirePass.php">
+   <todo pos="14;78" name="todo Shell::handleError would be better here, because we could"/>
+   <todo pos="13;78" name="@todo Shell::handleError would be better here, because we could"/>
+   <todo pos="14;84" name="todo trigger an error as fallback"/>
+   <todo pos="13;84" name="@todo trigger an error as fallback"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\CodeCleaner\ValidClassNamePass.php">
+   <todo pos="14;64" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo pos="13;64" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\CodeCleaner\ValidFunctionNamePass.php">
+   <todo pos="14;48" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo pos="13;48" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\DocCommand.php">
+   <todo pos="18;105" name="todo this is going to collide with ReflectionMethod ids"/>
+   <todo pos="17;105" name="@todo this is going to collide with ReflectionMethod ids"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand.php">
+   <todo pos="10;127" name="todo something cleaner than this :-/"/>
+   <todo pos="9;127" name="@todo something cleaner than this :-/"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\ClassConstantEnumerator.php">
+   <todo pos="14;34" name="todo handle ReflectionExtension as well"/>
+   <todo pos="13;34" name="@todo handle ReflectionExtension as well"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\ClassEnumerator.php">
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\ConstantEnumerator.php">
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\FunctionEnumerator.php">
+   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\InterfaceEnumerator.php">
+   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Command\ListCommand\TraitEnumerator.php">
+   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\Configuration.php">
+   <todo pos="10;606" name="todo mebbe turn this on by default some day"/>
+   <todo pos="9;606" name="@todo mebbe turn this on by default some day"/>
+   <todo pos="10;696" name="todo detect `chsh` != 65001 on Windows and return false"/>
+   <todo pos="9;696" name="@todo detect `chsh` != 65001 on Windows and return false"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\ExecutionLoop\ProcessForker.php">
+   <todo pos="18;212" name="todo remove this once we don't support PHP 5.x anymore :)"/>
+   <todo pos="17;212" name="@todo remove this once we don't support PHP 5.x anymore :)"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\src\functions.php">
+   <todo pos="10;86" name="todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
+   <todo pos="9;86" name="@todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
+   <todo pos="10;257" name="todo Show Presenter / custom casters."/>
+   <todo pos="9;257" name="@todo Show Presenter / custom casters."/>
+   <todo pos="18;349" name="todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
+   <todo pos="17;349" name="@todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\psy\psysh\test\Formatter\SignatureFormatterTest.php">
+   <todo pos="46;81" name="todo show this as `unknown` in red or something"/>
+   <todo pos="45;81" name="@todo show this as `unknown` in red or something"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\Headers\ParameterizedHeader.php">
+   <todo pos="36;126" name="TODO: Check caching here"/>
+   <todo pos="13;186" name="TODO: text, or something else"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Mime\SimpleMimeEntity.php">
+   <todo pos="9;299" name="TODO: Try to refactor this logic"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Signers\DKIMSigner.php">
+   <todo pos="5;217" name="TODO fix return"/>
+   <todo pos="25;601" name="todo handle it but should never happen"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php">
+   <todo pos="10;92" name="TODO make tls arguments configurable"/>
+   <todo pos="9;92" name="@TODO make tls arguments configurable"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\swiftmailer\swiftmailer\tests\acceptance\Swift\Mime\SimpleMessageAcceptanceTest.php">
+   <todo pos="61;6" name="TODO: Test with the charset defined"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\css-selector\XPath\Extension\FunctionExtension.php">
+   <todo pos="9;96" name="todo: handle an+b, odd, even"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\css-selector\XPath\Extension\HtmlExtension.php">
+   <todo pos="9;111" name="todo: in the second half, add &quot;and is not a descendant of that fieldset element's first legend elem"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\http-kernel\Controller\ContainerControllerResolver.php">
+   <todo pos="13;38" name="TODO deprecate this in 5.1"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\http-kernel\HttpCache\Store.php">
+   <todo pos="9;156" name="TODO the metaStore referenced an entity that doesn't exist in"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\mime\Header\ParameterizedHeader.php">
+   <todo pos="13;119" name="TODO: text, or something else"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\translation\Loader\PoFileLoader.php">
+   <todo pos="17;89" name="TODO: this fails when comments or contexts are added"/>
+  </todofile>
+  <todofile name="D:\Laravel\Todos\vendor\symfony\translation\Tests\PluralizationRulesTest.php">
+   <todo pos="2;36" name="TODO: The languages mentioned in the data provide need to get fixed somehow within Pluralizat"/>
+  </todofile>
+ </todoblock>
+ <dbgurls/>
+</project>
